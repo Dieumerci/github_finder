@@ -1,12 +1,6 @@
 
 ## Introduction
 View and search github profile. The project can run with docker or with npm start
-## Environment 
-External tools: 
-1. python v3.6
-2. node v10.4.1 (npm v6.1.0)
-3. flask v1.0.2
-4. pip v10.0.1
 
 Vital dependencies:
 1. react v16.4.0
