@@ -1,31 +1,21 @@
 
 ## Introduction
-View and search github profile. The project can run with docker or with npm start
+View and search github profile. 
 
 Vital dependencies:
 1. react v16.4.0
 
 ```
-docker image ls
+cd into project workspace
 ```
-5. Start the docker container:
+5. Install all dependencies:
 ```
-docker run -p 3000:80 github_finder
+yarn install or npm install
 ```
-6. Open the browser and enter the following url:
+6. Start the application and go to url:
 ```
-localhost:3000
+npm start localhost:3000
 ```
-7. If running a Docker Toolbox on a windows 7, use a docker machine
-id instead of a localhost. Use the following command to find out 
-your machine ip:
-```
-docker-machine ip
-```
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `yarn start`
 
 Runs the app in the development mode.<br />
