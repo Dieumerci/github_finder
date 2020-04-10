@@ -1,5 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Introduction
+View and search github profile. The project can run with docker or with npm start
+## Environment 
+External tools: 
+1. python v3.6
+2. node v10.4.1 (npm v6.1.0)
+3. flask v1.0.2
+4. pip v10.0.1
+
+Vital dependencies:
+1. react v16.4.0
+
+```
+docker image ls
+```
+5. Start the docker container:
+```
+docker run -p 3000:80 github_finder
+```
+6. Open the browser and enter the following url:
+```
+localhost:3000
+```
+7. If running a Docker Toolbox on a windows 7, use a docker machine
+id instead of a localhost. Use the following command to find out 
+your machine ip:
+```
+docker-machine ip
+```
 ## Available Scripts
 
 In the project directory, you can run:
