@@ -8,11 +8,11 @@ Vital dependencies:
 ```
 cd into project workspace
 ```
-5. Install all dependencies:
+2. Install all dependencies:
 ```
 yarn install or npm install
 ```
-6. Start the application and go to url:
+3. Start the application and go to url:
 ```
 npm start localhost:3000
 ```
