@@ -1,9 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
+View and search github profile. 
 
-In the project directory, you can run:
+Vital dependencies:
+1. react v16.4.0
 
+```
+cd into project workspace
+```
+2. Install all dependencies:
+```
+yarn install or npm install
+```
+3. Start the application and go to url:
+```
+npm start localhost:3000
+```
 ### `yarn start`
 
 Runs the app in the development mode.<br />
